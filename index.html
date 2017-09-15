@@ -1,0 +1,64 @@
+---
+# empty front matter
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible">
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.0.0-alpha.6/litera/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    {% include header.html %}
+    <div class="jumbotron special-banner text-center">
+        <h1>Hi, I'm Derek Ries <small style="display:block" class="text-muted">I'm a Software Developer for the <span class="text-primary font-weight-bold">Web</span></small> </h1>
+        <a href="https://github.com/DerekRies" class="btn btn-primary btn-outline-primary btn-thick-outline btn-lg"> <i class="fa fa-github"></i> Github</a>
+        <a href="https://github.com/DerekRies" class="btn btn-outline-primary btn-thick-outline btn-lg"> <i class="fa fa-pencil"></i> Blog</a>
+        <!-- <a href="https://github.com/DerekRies" class="btn btn-outline-primary btn-thick-outline"> <i class="fa fa-book"></i>Resume</a> -->
+    </div>
+    <div class="container">
+        <div class="about-me-section">
+            <h2>About Me</h2>
+            <!-- <p>
+                I'm Derek and I do Software Development. I primarily work with web technologies, building Single Page Applications with Angular on the frontend and Python or node on the backend. I love programming of all kinds, but I'm usually most interested in Web Development, Game Development, Artificial Intelligence, and Reverse Engineering Binary Protocols
+            </p> -->
+            <blockquote class="blockquote">I'm Derek and I do Software Development. I primarily work with web technologies, building Single Page Applications with Angular on the frontend and Python or node on the backend. I love programming of all kinds, but I'm usually most interested in Web Development, Game Development, Artificial Intelligence, and Reverse Engineering Binary Protocols</blockquote>
+            <a href="/about.html" class="btn btn-lg btn-secondary">Read More About Me</a>
+        </div>
+        <h2>Projects</h2>
+        <div class="projects">
+            {% assign projects = site.projects | sort: 'priority'%}
+            {% for project in projects %}
+            <div class="post media">
+                <!-- <img class="d-flex rounded-circle" src="http://via.placeholder.com/200/" alt=""> -->
+                <img src="{{project.thumbnail}}" alt="" class="d-flex rounded-circle">
+                <div class="media-body">
+                    <h3 class="card-title">{{project.title}} <small class="text-muted">{{project.subtitle}}</small> </h3>
+                    <div class="post-badges">
+                        {% for tech in project.technologies %}
+                        <span class="badge badge-sm badge-outline-primary">{{tech}}</span>
+                        {% endfor %}
+                    </div>
+                    <p class="card-text">{{project.quickdesc}}</p>
+                    <a href="{{project.url}}" class="btn btn-lg btn-primary">Read More</a>
+                    {% if project.github %}
+                    <a href="{{project.github}}" class="btn btn-lg btn-outline-secondary btn-thick-outline"><i class="fa fa-github"></i>  View on Github</a>
+                    {% endif %}
+                    {% if project.liveproject %}
+                    <a href="{{project.liveproject}}" class="btn btn-lg btn-outline-secondary btn-thick-outline"><i class="fa fa-globe"></i> Live Project</a>
+                    {% endif %}
+                    {% if project.extra-link %}
+                    <a href="{{project.extra-link}}" class="btn btn-lg btn-outline-secondary btn-thick-outline">{{project.extra-link-text}}</a>
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% include footer.html %}
+</body>
+</html>

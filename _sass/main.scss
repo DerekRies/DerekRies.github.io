@@ -1,0 +1,128 @@
+// @import "bootstrap/bootstrap";
+// @import "litera/_bootswatch.scss"
+@import "litera/_variables.scss";
+
+.navbar-nav {
+    display: inline;
+
+    .nav-item {
+        display: inline-block;
+        padding: 0 8px;
+    }
+}
+
+.navbar {
+    border-bottom:2px solid #EBEBEB;
+}
+
+.card {
+    padding: 20px;
+    box-shadow: 3px 3px #EEEDED;
+    border: 1px solid #EEEDED;
+}
+
+.btn-thick-outline {
+    border: 2px solid;
+}
+
+.btn-no-round {
+    border-radius: 4px;
+}
+
+.btn-outline-secondary {
+    color: $gray-light;
+    border-color: $gray-light;
+}
+
+.border-primary { border-color: $brand-primary; }
+.border-success { border-color: $brand-success; }
+.border-secondary { border-color: $gray-light; }
+.border-info { border-color: $brand-info; }
+.border-warning { border-color: $brand-warning; }
+.border-danger { border-color: $brand-danger; }
+
+.badge.badge-secondary {
+    background-color: $gray-light;
+}
+.badge.badge-outline-primary {
+    border: 1px solid $brand-primary;
+    color: $brand-primary;
+}
+.badge.badge-outline-secondary {
+    border: 1px solid $gray-light;
+    color: $gray-light;
+}
+.badge.badge-outline-success {
+    border: 1px solid $brand-success;
+    color: $brand-success;
+}
+.badge.badge-outline-info {
+    border: 1px solid $brand-info;
+    color: $brand-info;
+}
+.badge.badge-outline-danger {
+    border: 1px solid $brand-danger;
+    color: $brand-danger;
+}
+.badge.badge-outline-warning {
+    border: 1px solid $brand-warning;
+    color: $brand-warning;
+}
+.badge-sm {
+    font-size: .6em;
+}
+
+.jumbotron h1 {
+    font-size: 3.5rem;
+}
+
+.post {
+    .card-title {
+        margin-bottom: 0;
+    }
+    img.d-flex {
+        margin-right: 2rem !important;
+    }
+    margin: 40px 0;
+    padding: 20px 0;
+    // border: 1px solid #EBEBEB;
+    // box-shadow: 0px 5px 4px #EBEBEB;
+    border-bottom: 2px solid #E2E2E2;
+    box-shadow: 0 6px 6px -2px #EEEEEE;
+    &::first-of-type {
+        margin-top: 0;
+    }
+}
+
+.projects .post:first-child {
+    margin-top: 10px;
+}
+
+.post-badges {
+    margin-bottom: 10px;
+}
+
+.project-page {
+    h1 {
+        font-size: 4rem;
+        margin-top: 20px;
+        margin-bottom:0;
+    }
+    .text-muted, {
+        margin-bottom: 30px;
+    }
+}
+
+.about-me-section {
+    margin-bottom: 30px;
+}
+
+.theater {
+    background-color: #202020;
+    width: 100%;
+    margin: 30px 0;
+    canvas {
+        display: block;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,111 @@
+.navbar-nav {
+  display: inline; }
+  .navbar-nav .nav-item {
+    display: inline-block;
+    padding: 0 8px; }
+
+.navbar {
+  border-bottom: 2px solid #EBEBEB; }
+
+.card {
+  padding: 20px;
+  box-shadow: 3px 3px #EEEDED;
+  border: 1px solid #EEEDED; }
+
+.btn-thick-outline {
+  border: 2px solid; }
+
+.btn-no-round {
+  border-radius: 4px; }
+
+.btn-outline-secondary {
+  color: #818a91;
+  border-color: #818a91; }
+
+.border-primary {
+  border-color: #4582EC; }
+
+.border-success {
+  border-color: #02B875; }
+
+.border-secondary {
+  border-color: #818a91; }
+
+.border-info {
+  border-color: #5bc0de; }
+
+.border-warning {
+  border-color: #f0ad4e; }
+
+.border-danger {
+  border-color: #d9534f; }
+
+.badge.badge-secondary {
+  background-color: #818a91; }
+
+.badge.badge-outline-primary {
+  border: 1px solid #4582EC;
+  color: #4582EC; }
+
+.badge.badge-outline-secondary {
+  border: 1px solid #818a91;
+  color: #818a91; }
+
+.badge.badge-outline-success {
+  border: 1px solid #02B875;
+  color: #02B875; }
+
+.badge.badge-outline-info {
+  border: 1px solid #5bc0de;
+  color: #5bc0de; }
+
+.badge.badge-outline-danger {
+  border: 1px solid #d9534f;
+  color: #d9534f; }
+
+.badge.badge-outline-warning {
+  border: 1px solid #f0ad4e;
+  color: #f0ad4e; }
+
+.badge-sm {
+  font-size: .6em; }
+
+.jumbotron h1 {
+  font-size: 3.5rem; }
+
+.post {
+  margin: 40px 0;
+  padding: 20px 0;
+  border-bottom: 2px solid #E2E2E2;
+  box-shadow: 0 6px 6px -2px #EEEEEE; }
+  .post .card-title {
+    margin-bottom: 0; }
+  .post img.d-flex {
+    margin-right: 2rem !important; }
+  .post::first-of-type {
+    margin-top: 0; }
+
+.projects .post:first-child {
+  margin-top: 10px; }
+
+.post-badges {
+  margin-bottom: 10px; }
+
+.project-page h1 {
+  font-size: 4rem;
+  margin-top: 20px;
+  margin-bottom: 0; }
+
+.project-page .text-muted {
+  margin-bottom: 30px; }
+
+.about-me-section {
+  margin-bottom: 30px; }
+
+.theater {
+  background-color: #202020;
+  width: 100%;
+  margin: 30px 0; }
+  .theater canvas {
+    display: block;
+    margin: 0 auto; }
