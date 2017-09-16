@@ -90,6 +90,9 @@
     }
     img.d-flex {
         margin-right: 2rem !important;
+        @media (max-width: 576px) {
+            display: none !important;
+        }
     }
     margin: 40px 0;
     padding: 20px 0;
@@ -117,7 +120,28 @@
         margin-bottom:0;
     }
     .text-muted, {
+        margin-top: 0px;
         margin-bottom: 30px;
+    }
+    h2,h3,h4,h5,h6 {
+        margin: 40px 0 20px;
+    }
+    a>img{
+        &:hover {
+            opacity: 0.9;
+        }
+    }
+    .well {
+        background-color: #F0F0F0;
+        padding: 30px;
+    }
+}
+
+.big-figure {
+    width: 100%;
+    figure { width: 100%; }
+    img {
+        width: 100%;
     }
 }
 
@@ -139,4 +163,8 @@ code {
     // white-space: pre-wrap;
     // overflow-wrap: break-word;
     font-size: 1.05rem !important;
+}
+
+.blockquote-tiny {
+    font-size: .95rem;
 }
