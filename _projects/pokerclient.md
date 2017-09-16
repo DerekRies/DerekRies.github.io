@@ -1,8 +1,8 @@
 ---
 title: "Poker Client"
-subtitle: "Farming PlayMoney Poker Chips"
+subtitle: "Farming Play Money Poker Chips"
 layout: project
-quickdesc: "For this project I targeted a popular play-money web application for No Limit Texas Hold Em, and developed a working HTTP client, as well as a fully functional websocket client to automate collecting chips on the site."
+quickdesc: "For this project I targeted a popular play-money web application for No Limit Texas Hold Em, and developed a complete network client for the game in python. This includes an HTTP client for their REST(ish) internal API, as well as a fully functional websocket client for in game messages to automate collecting chips and playing tables."
 technologies:
     - Python / AsyncIO
     - Websockets

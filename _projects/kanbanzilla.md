@@ -29,11 +29,18 @@ extra-link-text: View Talk
 
 During the Summer of 2013, I interned at Mozilla on the Web Dev (later split to Web Engineering) team. For my internship I worked on Kanbanzilla, an internal web app that provided a Kanban Interface on top of the old Bugzilla API. Essentially this meant a Trello Clone that would sync with Bugzilla. When someone moved a card on the kanban board, it would be updated with Bugzilla. At the time, Trello didn't have support for integrating with anything. Since 2013, Github Issues and Bitbucket (Jira) have added a Kanban Cards and Columns style view, very much like what Kanbanzilla did.
 
+<div class="text-center big-figure">
+    <figure class="figure">
+        <img src="http://via.placeholder.com/650x400" alt="">
+        <figcaption class="figure-caption text-center">A Screenshot of Kanbanzilla</figcaption>
+    </figure>
+</div>
+
 ## What's Bugzilla?
 
 <blockquote class="blockquote border-primary">
 Bugzilla is a "Defect Tracking System" or "Bug-Tracking System". Defect Tracking Systems allow individual or groups of developers to keep track of outstanding bugs in their products effectively.
-<footer class="blockquote-footer">- from <a href="https://bugzilla.org/about"><cite title="About Bugzilla">Bugzilla.org</cite></a></footer>
+<footer class="blockquote-footer"> from <a href="https://bugzilla.org/about"><cite title="About Bugzilla">Bugzilla.org</cite></a></footer>
 </blockquote>
 
 ## Bugzilla as a Backend
