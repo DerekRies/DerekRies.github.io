@@ -1,6 +1,14 @@
 // @import "bootstrap/bootstrap";
 // @import "litera/_bootswatch.scss"
 @import "litera/_variables.scss";
+@import "darksolarized.scss";
+
+.container {
+    @media (min-width: 1200px) {
+        width: 1040px;
+    }
+
+}
 
 .navbar-nav {
     display: inline;
@@ -125,4 +133,10 @@
         display: block;
         margin: 0 auto;
     }
+}
+
+code {
+    // white-space: pre-wrap;
+    // overflow-wrap: break-word;
+    font-size: 1.05rem !important;
 }

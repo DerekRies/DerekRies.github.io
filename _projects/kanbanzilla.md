@@ -8,7 +8,7 @@ technologies:
     - Angular
     - Bugzilla
 priority: 2
-thumbnail: http://via.placeholder.com/200/
+thumbnail: imgs/kanbanzilladarkthumb.png
 github: https://github.com/mozilla/kanbanzilla
 extra-link: https://air.mozilla.org/intern-presentations-reis
 extra-link-text: View Talk
