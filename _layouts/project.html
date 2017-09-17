@@ -7,16 +7,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible">
-    <title>{{ site.title }}</title>
+    <title>{{ page.title }} -{{ site.title }}</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.0.0-alpha.6/litera/bootstrap.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/main.css">
 </head>
 <body class="project-page">
     {% include header.html %}
-    <div class="container">
+    <div class="container project-header">
         <h1>{{page.title}}</h1>
         <h3 class="text-muted">{{page.subtitle}}</h3>
+        <div class="post-badges">
+            {% for technology in page.technologies %}
+            <span class="badge badge-lg badge-outline-primary">{{technology}}</span>
+            {% endfor %}
+        </div>
     </div>
     {% if page.theatermode %}
     <div class="theater">

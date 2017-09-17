@@ -8,7 +8,7 @@ technologies:
   - GameDev
 quickdesc: GRAB is my entry for the 2013 JS1k Contest, where all entries must be under 1024 Bytes (1KB). It's a game where you control a little glowing arrow, and have to pick up the glowing orbs of your color while avoiding the bad ones.
 priority: 3
-thumbnail: http://via.placeholder.com/200/
+thumbnail: imgs/grabthumb.jpg
 theatermode: true
 game-include: grabgame.html
 ---
