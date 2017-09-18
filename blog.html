@@ -1,0 +1,45 @@
+---
+# empty front matter
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible">
+    <title>Blog - {{ site.title }}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.0.0-alpha.6/litera/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+{% include header.html %}
+
+<div class="container project-page blog-page">
+    <div class="project-header">
+        <h1>Blog</h1>
+    </div>
+
+    <div class="row">
+        <div class="blog-post-listings col-md-12">
+            {% if site.posts == empty %}
+            <h1 class="text-muted">Sorry No Blog Posts Yet</h1>
+            {% else %}
+            {% for post in site.posts %}
+            <div class="blog-post-listing">
+                <a href="{{post.url}}" class="no-style"><h2 class="m-0">{{post.title}}</h2></a>
+                <p><em class="text-muted">{{post.date | date: '%B %d, %Y' }}</em></p>
+                <p>{{post.excerpt}}</p>
+                <a href="{{post.url}}" class="btn btn-outline-primary btn-lg">Read More</a>
+            </div>
+            {% endfor %}
+            {% endif %}
+        </div>
+        <!-- <div class="col-md-3"></div> -->
+    </div>
+</div>
+
+
+{% include footer.html %}
+</body>
+</html>

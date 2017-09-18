@@ -2,7 +2,7 @@
 title: "Kanbanzilla"
 subtitle: "A Bugzilla-Integrated Trello Clone for Mozilla"
 layout: project
-quickdesc: "My Internship project at Mozilla"
+quickdesc: "My Internship project at Mozilla. A Web App that provides a Kanban Interface on top of the Bugzilla Issue/Bug Tracking Software"
 technologies:
     - Python / Flask
     - Angular

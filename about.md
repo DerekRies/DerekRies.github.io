@@ -32,6 +32,7 @@ I first got interested in coding when I was 12 thanks to an online game called *
  - Skateboarding
  - Snowboarding
  - Poker (No Limit Texas Hold Em & Pot Limit Omaha)
+ - Weightlifting & Powerlifting
 
 ### Favorite Programming Languages
 

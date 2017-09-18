@@ -1,0 +1,26 @@
+---
+# empty front matter
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.0.0-alpha.6/litera/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{site.url}}/css/main.css">
+</head>
+<body class="project-page">
+    {% include header.html %}
+    <div class="container project-header">
+        <h1>{{page.title}}</h1>
+        <h3 class="text-muted">{{page.subtitle}}</h3>
+    </div>
+    <div class="container">
+        {{content}}
+    </div>
+    {% include footer.html %}
+</body>
+</html>

@@ -30,6 +30,8 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 
+excerpt_separator: <!--more-->
+
 collections:
   projects:
     output: true
