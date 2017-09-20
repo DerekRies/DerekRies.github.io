@@ -8,7 +8,7 @@ technologies:
     - Binary / Hex
     - Reverse Engineering
 github: https://github.com/DerekRies/arkpy
-priority: 1
+priority: 2
 thumbnail: 'imgs/arkthumb.png'
 ---
 

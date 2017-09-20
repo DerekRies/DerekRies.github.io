@@ -2,7 +2,7 @@
 title: "Helios"
 subtitle: "Another 3D Visualization of Exoplanets"
 layout: project
-priority: 3
+priority: 1
 technologies:
     - Javascript
     - WebGL
