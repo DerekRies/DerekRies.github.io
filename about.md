@@ -13,7 +13,7 @@ languages:
     - sass
 ---
 
-I'm Derek and I do Software Development. I primarily work with web technologies, building Single Page Applications with Angular on the frontend and Python or node on the backend. I love programming of all kinds, but I'm usually most interested in Web Development, Game Development, Artificial Intelligence, and Reverse Engineering binary stuff!
+{{site.description}}
 
 ### How I Got Into Programming
 
@@ -25,6 +25,8 @@ I first got interested in coding when I was 12 thanks to an online game called *
         <cite title="">1mju574n00b</cite>
     </footer>
 </blockquote>
+
+It wasn't until I started doing graphic design that I realized I should be programming though. So after i took my first JavaScript class doing my Web Design & Interactive Media degree I started teaching myself programming and computer science with websites like [Coursera.org](https://coursera.org) and [Udacity.com](https://udacity.com).
 
 ### Hobbies
 

@@ -31,7 +31,7 @@ During the Summer of 2013, I interned at Mozilla on the Web Dev (later split to 
 
 <div class="text-center big-figure">
     <figure class="figure">
-        <img src="http://via.placeholder.com/650x400" alt="">
+        <img src="{{site.url}}/imgs/kanbanzilla-screenshot.png" alt="">
         <figcaption class="figure-caption text-center">A Screenshot of Kanbanzilla</figcaption>
     </figure>
 </div>
