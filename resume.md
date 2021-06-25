@@ -21,7 +21,7 @@ Angular, React, Storybook, Canvas, WebGL / OpenGL, MapboxGL.js, Leaflet, Websock
 <br>
 **Sr. Software Engineer**
 <br>
-Lead the development of several web application projects, most notably, a client-heavy geospatial search, visualization and analysis tool that allows users to dynamically style large datasets. Built using TypeScript, Protocol Buffers, and WebGL. 
+Lead the development of several web application projects, most notably, a client-heavy geospatial search, visualization and analysis tool that allows users to dynamically style large datasets and surface contextually important analytical information. Built using TypeScript, Protocol Buffers, and WebGL. 
 
  - Also lead the development of implementing a shared component library through Storybook to build out more consistent looking applications faster and easier.
  - Lead shift to Typescript and formalizing existing API’s with OpenAPI. Also developed tooling to generate Types, Runtime Validation, and Network Client code for Typescript from the OpenAPI Specification.
