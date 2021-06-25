@@ -1,16 +1,15 @@
 ---
 title: About Me
-subtitle: Commander of the Armies of the North...
 layout: project
 logo_color: "#1863e6"
 languages:
-    - python
-    - javascript
-    - typescript
-    - c#
-    - c++
-    - go
-    - sass
+    - Typescript
+    - Javascript
+    - Python
+    - Rust
+    - C#
+    - C++
+    - Go
 ---
 
 {{site.description}}
