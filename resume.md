@@ -29,7 +29,7 @@ Angular, React, Storybook, Canvas, WebGL / OpenGL, MapboxGL.js, Leaflet, Websock
 <br>
 **Freelance Web Developer & Programmer**
 <br>
-Developed several websites using python and jekyll for clients. Wrote some scripts for clients that automated large portions of their workflow process. Also, reverse engineered several file formats for clients looking to integrate with older legacy software.
+Developed several websites using python and jekyll for clients. Wrote some scripts for clients that automated large portions of their workflow process. Also, reverse engineered several file formats for clients looking to integrate with blackbox software.
 
 2014 September - 2015 March. Mozilla Corporation
 <br>
