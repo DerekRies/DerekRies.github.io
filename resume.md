@@ -8,11 +8,11 @@ layout: project
 
 ##### Languages:
 
-Javascript (expert), TypeScript (expert), Python (proficient), C# (proficient), C/C++ (proficient), Rust (proficient), SQL (proficient), Go (proficient).
+Javascript (expert), TypeScript (expert), Python (proficient), C# (proficient), Rust (proficient), SQL (proficient), Go (proficient), C/C++ (prior experience).
 
 ##### Other Technologies & Skills:
 
-Angular, React, Storybook, Canvas, WebGL / OpenGL, MapboxGL.js, Leaflet, Websockets, OpenAPI (and REST as a concept), Protocol Buffers, gRPC (and RPC in general). Protocol and Binary file format Reverse Engineering.
+Angular, React, Storybook, Canvas, WebGL / OpenGL, MapboxGL.js, Leaflet, Websockets, OpenAPI (and REST as a concept), Protocol Buffers, gRPC (and RPC in general), Postgres, PostGIS, OGC Standards (WFS, WMS, WPS), Protocol and Binary file format Reverse Engineering.
 
 
 ## Work Experience
@@ -21,9 +21,11 @@ Angular, React, Storybook, Canvas, WebGL / OpenGL, MapboxGL.js, Leaflet, Websock
 <br>
 **Sr. Software Engineer**
 <br>
-- Lead development of a performance-oriented Geospatial Querying, Visualization, and Analysis tool. Allowed users to plugin their own data sources, dynamically style maps on the properties of the data, and surface contextually important analytical information for decision making.
-- Lead shift to Typescript and formalizing existing API's with OpenAPI. Also developed tooling to generate Types, Runtime Validation, and Network Client code for Typescript from the OpenAPI Specification.
-- Developed a tool for labeling training data for ML Models and then validating the resulting classified data.
+Lead the development of several web application projects, most notably, a client-heavy geospatial search, visualization and analysis tool that allows users to dynamically style large datasets. Built using TypeScript, Protocol Buffers, and WebGL. 
+
+ - Also lead the development of implementing a shared component library through Storybook to build out more consistent looking applications faster and easier.
+ - Lead shift to Typescript and formalizing existing API’s with OpenAPI. Also developed tooling to generate Types, Runtime Validation, and Network Client code for Typescript from the OpenAPI Specification.
+ - Developed a tool for labeling training data for ML Models and then validating the resulting classified data.
 
 2015 - Current. Self Employed
 <br>
